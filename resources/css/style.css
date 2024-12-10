@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .grafik-pelatihan {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .statistik-karyawan {
+    margin-bottom: 20px;
+  }
+  
+  .peringatan {
+    margin-bottom: 20px;
+  }
+  
+  .peringatan ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .peringatan li {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .footer span {
+    display: block;
+    opacity: 0.8;
+  }
+
+  .footer strong {
+    color: #ffd700;
+  }
+
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937; /* Warna gelap seperti di gambar */
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    width: 100%; /* Memenuhi lebar container */
+    height: 300px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Efek bazel */
+}
+
+.chart-title {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+.chart-details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.detail-box {
+    background-color: #111827; /* Warna gelap kotak */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Efek bazel */
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.detail-box span {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #d1d5db; /* Warna teks detail */
+}
+
+  .logo {
+    width: 50px;
+    height: auto;
+  }
+
+  .owl-carousel .item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  }
+
+  .card-title {
+  font-weight: bold;
+  text-align: center;
+  }
+
+  .card {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+
+  .progress-bar {
+  border-radius: 10px;
+  }
+
+
+
+  
